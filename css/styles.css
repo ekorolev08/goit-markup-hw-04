@@ -375,10 +375,12 @@ align-items: center;
 justify-content: center; 
 
 }
+.our-team-soc-link:hover, 
+.our-team-soc-link:focus {
+  background-color: #404bbf;
+}
 .our-team-soc-icon{ 
-  /* content: '';
-  width: 16px;
-  height: 16px; */
+fill: var(--svg-footer-color);
 }
 
 
