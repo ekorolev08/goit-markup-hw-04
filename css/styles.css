@@ -19,6 +19,7 @@ margin: 0 auto;
   --btn-background-color:#F4F4FD;
   --btn-all: #e7e9fc;
   --svg-footer-color: #f4f4fd;
+  --our-team-cos-icon: #f4f4fd;
 }
 
 body {
@@ -379,8 +380,9 @@ justify-content: center;
 .our-team-soc-link:focus {
   background-color: #404bbf;
 }
-.our-team-soc-icon{ 
-fill: var(--svg-footer-color);
+
+.our-team-soc-icon { 
+  fill: var(--our-team-cos-icon);
 }
 
 
