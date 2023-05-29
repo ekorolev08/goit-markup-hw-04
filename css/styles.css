@@ -235,10 +235,11 @@ border-radius: 4px;
   background-color: #f4f4fd; 
   background-repeat: 4px;
   margin-bottom: 8px;
+  
 }
 .icon-description-list{
   display: flex;
-  gap: 24px;
+  gap: 24px; 
   }
   .icon-description-item{
     width: 264px;
