@@ -227,6 +227,15 @@ border-radius: 4px;
   max-width: 264px; 
   border-radius: 4px; 
 }
+.icon-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd; 
+  background-repeat: 4px;
+  margin-bottom: 8px;
+}
 .icon-description-list{
   display: flex;
   gap: 24px;
