@@ -568,7 +568,7 @@ gap: 16px;
   background-color: #31D0AA;
 }
 .footer-soc-icon {
-  /* fill: var(--svg-footer-color) */
+fill: var(--svg-footer-color);
 }
 /*----------------------button--------------------*/
 .btn-all{
