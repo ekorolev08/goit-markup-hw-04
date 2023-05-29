@@ -222,19 +222,21 @@ border-radius: 4px;
   gap: 24px; 
   
 }
-.description-active{
+/* .description-active{
   flex-basis: calc( (100% - 3 * 24px) / 4); 
   max-width: 264px; 
   border-radius: 4px; 
-}
+} */
 .icon-cont {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
   background-color: #f4f4fd; 
-  background-repeat: 4px;
+  border-radius: 4px;
   margin-bottom: 8px;
+  max-width: 264px; 
+  gap: 24px;
   
 }
 .icon-description-list{
@@ -243,16 +245,17 @@ border-radius: 4px;
   }
   .icon-description-item{
     width: 264px;
-    /* height: 112px; */
+  height: 112px; 
+    
     }
   .icon-description-link{
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
   /* background-color: #F4F4FD; */
-  border-radius: 4px;
-  display: flex;
+  /* border-radius: 4px; */
+  /* display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;  */
   }
 /* .description-active::before{
   display: block;
