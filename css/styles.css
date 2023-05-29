@@ -41,8 +41,9 @@ img {
     list-style: none;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 /*---------------------------------------------- HEADER-------------------------------------- */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -460,7 +461,38 @@ color: #434455;
   border: 1px solid #e7e9fc;
   border-top: none;
   }
-
+  /*----------------------button--------------------*/
+.btn-all{
+  padding: 12px 24px;
+  border-radius: 4px; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height:1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--btn-color);
+  border: 1px solid var(--btn-all);
+  /* border: 1px solid #e7e9fc; */
+  background-color: var(--btn-background-color);
+}
+.btn-all:hover,
+.btn-all:focus{
+  color:#FFFFFF;
+  border: 1px solid transparent;
+  background-color: #404BBF;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+  0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); ;
+}
+.nine-img-link {
+  display: block;
+ text-decoration: none;
+}
+.nine-img-link:hover,
+.nine-img-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
   /* --------------------------------CUSTOMERS--------------------------------------------- */
 .fifth-header{
   text-align: center;
@@ -589,29 +621,7 @@ gap: 16px;
 .footer-soc-icon {
 fill: var(--svg-footer-color);
 }
-/*----------------------button--------------------*/
-.btn-all{
-  padding: 12px 24px;
-  border-radius: 4px; 
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height:1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: var(--btn-color);
-  border: 1px solid var(--btn-all);
-  /* border: 1px solid #e7e9fc; */
-  background-color: var(--btn-background-color);
-}
-.btn-all:hover,
-.btn-all:focus{
-  color:#FFFFFF;
-  border: 1px solid transparent;
-  background-color: #404BBF;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-  0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); ;
-}
+
 
  /* .btn-all:last-child, first-child, 
  nth-child(5 or 7) 
