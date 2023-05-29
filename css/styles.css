@@ -136,10 +136,11 @@ color: #434455;
   padding: 120px 0;
   padding: 188px 0; 
   min-width: 1440px;
+  max-width: 1440px; 
   width: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, 
+  background-image: linear-gradient( 
   rgba(46, 47, 66, 0.7), 
   rgba(46, 47, 66, 0.7) ), 
   url('../images/people-office-min.jpg');
@@ -465,7 +466,7 @@ display: flex;
 gap: 24px;
 }
 .container-item{
-width: calc( (100% - 168px) / 6);
+width: calc( (100% - 120px) / 6);
 height: 88px;
 }
 .container-link{
@@ -525,6 +526,7 @@ background-color:var(--background-color)
 .footer-main {
   display: flex;
  align-items: baseline;
+ margin-right: 120px;
  
 }.footer-soc-text {
  display: flex;
