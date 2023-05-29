@@ -18,6 +18,7 @@ margin: 0 auto;
   --btn-color: #4d5ae5;
   --btn-background-color:#F4F4FD;
   --btn-all: #e7e9fc;
+  --svg-footer-color: #f4f4fd;
 }
 
 body {
@@ -526,9 +527,11 @@ background-color:var(--background-color)
 .footer-main {
   display: flex;
  align-items: baseline;
- margin-right: 120px;
- 
-}.footer-soc-text {
+}
+.footer-container{
+  margin-right: 120px;
+}
+.footer-soc-text {
  display: flex;
  /* justify-content: center; */
 align-items: center;
@@ -565,7 +568,7 @@ gap: 16px;
   background-color: #31D0AA;
 }
 .footer-soc-icon {
-  fill: #F4F4Fd;
+  /* fill: var(--svg-footer-color) */
 }
 /*----------------------button--------------------*/
 .btn-all{
